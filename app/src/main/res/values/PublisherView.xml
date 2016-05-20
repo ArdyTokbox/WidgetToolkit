@@ -1,0 +1,22 @@
+<resources>
+    <declare-styleable name="PublisherView">
+        <attr name="name" format="string"/>
+        <attr name="previewEnabled" format="boolean"/>
+        <attr name="audioFallbackEnabled" format="boolean" />
+        <attr name="supportVideo" format="boolean" />
+        <attr name="supportAudio" format="boolean" />
+        <attr name="capturerClass" format="string" />
+        <attr name="rendererClass" format="string" />
+        <attr name="captureResolution" format="enum" >
+            <enum name="low" value="0" />
+            <enum name="medium" value="1" />
+            <enum name="high" value="2" />
+        </attr>
+        <attr name="captureFrameRate" format="enum" >
+            <enum name="FPS_30" value="0" />
+            <enum name="FPS_15" value="1" />
+            <enum name="FPS_7" value="2" />
+            <enum name="FPS_1" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>
